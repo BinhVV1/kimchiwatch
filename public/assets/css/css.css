@@ -1,0 +1,132 @@
+			.accordion-toggle:after {
+				/* symbol for "opening" panels */
+				font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+				content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+				float: right;        /* adjust as needed */
+				color: grey;         /* adjust as needed */
+			}
+			.accordion-toggle.collapsed:after {
+				/* symbol for "collapsed" panels */
+				content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+			}
+
+#maytinh{
+    background-color: yellow;
+}
+#dell{
+    background-color: yellow;
+
+}
+.container{
+	padding: 0 !important;
+}
+#images:hover{
+	
+		box-shadow: 3px 3px 10px;
+	}
+.footer{
+	height:px;color:white;background:#1890FF;margin-top:40px;margin: auto;
+}
+#images{
+width:100%;border-radius:10px;margin-left: auto;margin-right: auto;display: block;
+}
+.infor{
+	background:#f5ffff;padding:10px;border-radius:10px;border:1px #dedede solid;
+}
+  
+ 
+	table {
+	
+
+	margin-top:0px;
+    border: 0px solid #1890FF;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: none;
+	
+
+}
+#gioithieu{
+letter-spacing: 0.5px;
+}
+.panel {
+    border: 1px solid #f4511e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+ 
+  #acer{
+		padding-top:45px;
+	}
+	#asus{
+		padding-top:45px;
+	}
+	#dell{
+		padding-top:45px;
+	}
+	#gaming{
+		padding-top:45px;
+	}
+	#hp{
+		padding-top:45px;
+	}
+	#lenovo{
+		padding-top:45px;
+	}
+	#msi{
+		padding-top:45px;
+	}
+	
+	.menu{
+		width: 100%;
+        margin-bottom: 100px;
+  position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+  top: 0; /*Nằm trên cùng*/
+  left: 0; /*Nằm sát bên trái*/
+  z-index: 100000; /*Hiển thị lớp trên cùng*/
+	}
+	@-webkit-keyframes my {
+	 0% { color: yellow; } 
+	 50% { color: #fff;  } 
+	 100% { color: yellow;  } 
+ }
+ @-moz-keyframes my { 
+	 0% { color: yellow;  } 
+	 50% { color: #fff;  }
+	 100% { color: yellow;  } 
+ }
+ @-o-keyframes my { 
+	 0% { color: yellow; } 
+	 50% { color: #fff; } 
+	 100% { color: yellow;  } 
+ }
+ @keyframes my { 
+	 0% { color: yellow;  } 
+	 50% { color: #fff;  }
+	 100% { color: yellow;  } 
+ } 
+
+ .test {
+        
+	 -webkit-animation: my 700ms infinite;
+	 -moz-animation: my 700ms infinite; 
+	 -o-animation: my 700ms infinite; 
+	 animation: my 700ms infinite;
+}
